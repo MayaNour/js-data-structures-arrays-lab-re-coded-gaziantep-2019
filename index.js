@@ -31,5 +31,6 @@ function prependDriver(name){
 }
 
 function removeLastDriver(){
-  
+  let newArr = days.slice(0, days.length - 1);
+  return newArr;
 }
