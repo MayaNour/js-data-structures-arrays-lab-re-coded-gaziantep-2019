@@ -29,3 +29,7 @@ function prependDriver(name){
   let newArr = [name, ...drivers];
   return newArr;
 }
+
+function removeLastDriver(){
+  
+}
