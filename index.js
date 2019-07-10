@@ -24,3 +24,8 @@ function appendDriver(name){
   let newArr = [...drivers, name];
   return newArr;
 }
+
+function appendDriver(name){
+  let newArr = [...drivers, name];
+  return newArr;
+}
